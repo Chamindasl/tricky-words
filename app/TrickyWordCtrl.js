@@ -28,12 +28,12 @@ function TrickyWordCtrl($scope, $timeout) {
             isReading: true
         },
         readingADogsLife :{
-            name: 'A dog’s life.',
+            name: 'Reading A dog’s life.',
             items : "A dog’s life. Hi. I’m Dino, the family dog. I help keep people safe, especially on the  roads. Take a look at my diary to see what I did last week.  Sunday.   Some children really don’t think. Our neighbour’s boy ran in front of a  car to get his ball. The car almost hit him. I saved him though.  Remember, always look and listen.  Monday.   Walking on the street at night can be very dangerous, especially if you wear dark clothes. Car drivers  can’t see you very well, just like these two I had to take home. Luckily I never go out without my  reflective jacket and collar. Remember, BE SEEN!.  Tuesday.  People can get very angry when driving, usually for silly reasons. One driver started shouting at Mum  today when she stopped to let some children cross the road. I soon made him stop.  Wednesday.   One thing makes me really mad. Grrrrrr. People walking on a dangerous road when they can walk on  the safe pavement. I saw two girls doing that today but I soon made them change their minds.  Thursday.   Seat belts can save your life! I make sure everyone in our car wears their seat belt. If they forget, I  soon remind them. Even I’ve got one.  Friday.   I like Fridays. The roads are quieter. But you still have to be careful. I caught Dad talking on his mobile  phone while driving. I soon stopped him though. Don’t worry, he got his phone back.  Saturday.   Today Mum took me for a walk. One car was parked in a very dangerous place. It was right on the  corner of the street. Don’t worry though. I left him a message!  ".split("."),
             isReading: true
         },
         readingSinhala :{
-            name: 'Reading',
+            name: 'Reading Sinhala',
             items : "අපි බත් කමු. අම්මා, මම බත් කෑවා. මල්ලි බත් කෑවේ නෑ.".split("."),
             isReading: true
         }
@@ -49,7 +49,7 @@ function TrickyWordCtrl($scope, $timeout) {
 
     $scope.fillTw = function () {
 
-        $scope.text = "Max is at the park Max's dad is at the park Kitty is at the park too I can race you to the swings says Max Max and Kitty run to the swings Dad run too Max gets to the swings Look I am at the swings says Max Kitty and Max get onto the swings Dad cannot get onto the swings He is too big Can you push me says Max Can you push me says Kitty Dad pushes Kitty and Max They are going up Max sees a red slide I can race you to the red slide says Max Max and Kitty run to the red slide Dad runs too Kitty gets to the red slide Look I am at the red slide says Kitty Kitty and Max get onto the slide Dad cannot get onto the slide He is too big Kitty is going down Max is going down too Look out Kitty says Max Here I am I can race you to the see-saw says Kitty Kitty and Max run to the see-saw Dad runs too Kitty jumps onto the see-saw Max jumps onto the see-saw too Dad cannot get onto the see-saw He is too big Kitty is going up on the see-saw Max is going down on the see-saw They are going up and down on the see-saw Max sees a little horse He jumps down and runs to the little horse Look out kitty says dad Kitty and Dad run to Max Max is on the little horse Kitty gets onto the little horse too Dad cannot get onto the little horse He is too big Dad pushes the little horse This is fun says Kitty This is fun says Max Kitty sees a big horse Look says Kitty I can see a big horse Kitty runs to the big horse Max sees the big horse and run to it Dad runs to the big horse too can I pet the big horse says Kitty Can I pet the big horse says Max Yes can pet the big horse says Dad Max and Kitty cannot pet the big horse The horse is too big The big horse looks down at kitty and Max They look up at the big horse They cannot pet the big horse Dad can pet the big horse The horse is big and Dad is big Up up says Dad The horse is big and Dad is big says Max";
+        $scope.text = "I the he she me we be was to do of any many more before other were because want saw put could should would right two four goes does made their are all you your come some said here there they go no so my one by only old like have live give little down what when why where who which";
 
           var splited = $scope.text.split(" ");
           for (var i = 0; i < splited.length; i++) {
